@@ -9,6 +9,15 @@ namespace DataLayer
 {
     public class UserContext : IDb<User, int>
     {
+
+        private RecyclingmachineDbContext dbContext;
+
+        public UserContext(RecyclingmachineDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+
+
         public void Create(User item)
         {
             throw new NotImplementedException();
@@ -19,17 +28,17 @@ namespace DataLayer
             throw new NotImplementedException();
         }
 
-        public User Read(int key)
+        public User Read(int key, bool useNavigationalProperties)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<User> ReadAll()
+        public IEnumerable<User> ReadAll(bool useNavigationalProperties)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(User item)
+        public void Update(User item, bool useNavigationalProperties)
         {
             throw new NotImplementedException();
         }

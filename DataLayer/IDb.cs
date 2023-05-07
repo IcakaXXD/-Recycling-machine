@@ -11,11 +11,11 @@ namespace DataLayer
     {
         void Create(T item);
 
-        T Read(K key);
+        T Read(K key, bool useNavigationalProperties);
 
-        IEnumerable<T> ReadAll();
+        IEnumerable<T> ReadAll(bool useNavigationalProperties);
 
-        void Update(T item);
+        void Update(T item, bool useNavigationalProperties);
 
         void Delete(K key);
 

@@ -9,7 +9,7 @@ namespace DataLayer
 {
     public class BottleContext : IDb<Bottle, int>
     {
-        RecyclingmachineDbContext dbContext;
+        private RecyclingmachineDbContext dbContext;
 
         public BottleContext(RecyclingmachineDbContext dbContext)
         {
@@ -26,17 +26,17 @@ namespace DataLayer
             throw new NotImplementedException();
         }
 
-        public Bottle Read(int key)
+        public Bottle Read(int key, bool useNavigationalProperties)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Bottle> ReadAll()
+        public IEnumerable<Bottle> ReadAll(bool useNavigationalProperties)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Bottle item)
+        public void Update(Bottle item, bool useNavigationalProperties)
         {
             throw new NotImplementedException();
         }

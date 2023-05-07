@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace ServiceLayer
 {
-    internal class ValidationManager
+    public static class ValidationManager
     {
+        public static bool IsValidString(string value)
+        {
+            if (value != null && value != string.Empty && value.Trim().Length > 0)
+            {
+                return true;
+            }
+            return false;
+        }
+
+
+
+
+
+
     }
 }

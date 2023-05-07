@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{DC9980AA-8AF1-484C-8AE9-36983F1A9E0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{9B360B08-7939-4C31-BA6C-FA82061D3E6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{0483DC0E-6E22-4A1F-BD30-4B91F70F27FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{DC9980AA-8AF1-484C-8AE9-36983F1A9E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC9980AA-8AF1-484C-8AE9-36983F1A9E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC9980AA-8AF1-484C-8AE9-36983F1A9E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B360B08-7939-4C31-BA6C-FA82061D3E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B360B08-7939-4C31-BA6C-FA82061D3E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B360B08-7939-4C31-BA6C-FA82061D3E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B360B08-7939-4C31-BA6C-FA82061D3E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0483DC0E-6E22-4A1F-BD30-4B91F70F27FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0483DC0E-6E22-4A1F-BD30-4B91F70F27FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0483DC0E-6E22-4A1F-BD30-4B91F70F27FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0483DC0E-6E22-4A1F-BD30-4B91F70F27FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
