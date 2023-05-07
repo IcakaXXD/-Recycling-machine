@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    class Bottle
+    public class Bottle
     {
         [Key]
         public int Id { get; set; }

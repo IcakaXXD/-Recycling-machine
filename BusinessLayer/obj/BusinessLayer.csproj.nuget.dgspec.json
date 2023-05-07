@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Downloads\\MI\\Recycling_machine\\BusinessLayer\\BusinessLayer.csproj": {}
+    "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Downloads\\MI\\Recycling_machine\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Downloads\\MI\\Recycling_machine\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Student\\Downloads\\MI\\Recycling_machine\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Downloads\\MI\\Recycling_machine\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Myumyun\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Myumyun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -65,7 +61,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
