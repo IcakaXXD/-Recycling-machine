@@ -1,4 +1,5 @@
 ﻿using BusinessLayer;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,27 +19,83 @@ namespace DataLayer
 
         public void Create(Bottle item)
         {
-            throw new NotImplementedException();
+            try
+            {
+                dbContext.Bottles.Add(item);
+                dbContext.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public Bottle Read(int key, bool useNavigationalProperties = false)
+        {
+            try
+            {
+                IQueryable<Bottle> query = dbContext.Bottles;
+
+                if (useNavigationalProperties)
+                {
+                    query = query.Include(p => p.User);
+                      
+                }
+
+                return query.FirstOrDefault(p => p.Id == key);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public IEnumerable<Bottle> ReadAll(bool useNavigationalProperties = false)
+        {
+            try
+            {
+                IQueryable<Bottle> query = dbContext.Bottles;
+
+                if (useNavigationalProperties)
+                {
+                    query = query.Include(p => p.User);
+                   
+                }
+
+                return query.ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void Update(Bottle item, bool useNavigationalProperties = false)
+        {
+            return;
         }
 
         public void Delete(int key)
         {
-            throw new NotImplementedException();
-        }
+            try
+            {
+                Bottle bottleFromDb = Read(key);
 
-        public Bottle Read(int key, bool useNavigationalProperties)
-        {
-            throw new NotImplementedException();
-        }
+                if (bottleFromDb != null)
+                {
+                    dbContext.Bottles.Remove(bottleFromDb);
+                    dbContext.SaveChanges();
+                }
+                else
+                {
+                    throw new InvalidOperationException("Product with that Id does not exist!");
+                }
+            }
+            catch (Exception)
+            {
 
-        public IEnumerable<Bottle> ReadAll(bool useNavigationalProperties)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Bottle item, bool useNavigationalProperties)
-        {
-            throw new NotImplementedException();
+                throw;
+            }
         }
     }
 }

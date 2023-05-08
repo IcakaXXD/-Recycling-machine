@@ -26,9 +26,11 @@ namespace DataLayer
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        { 
-        
-            
+        {
+            modelBuilder.Entity<User>()
+
+            base.OnModelCreating(modelBuilder);
+
         }
         public virtual DbSet<Bottle> Bottles { get; set; }
         public virtual DbSet<User> Users { get; set; }
