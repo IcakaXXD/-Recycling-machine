@@ -7,7 +7,7 @@ namespace DataLayer
 {
     public partial class RecyclingmachineDbContext : DbContext
     {
-        string Sql_ConnectionLink = "dsasda"; //connection link
+        string Sql_ConnectionLink = "Server=DESKTOP-J5Q5EQD;Database=Recycling;Trusted_Connection=True;"; //connection link
         public RecyclingmachineDbContext()
         {
         }
@@ -25,13 +25,26 @@ namespace DataLayer
             }
         }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>()
+            modelBuilder.Entity<User>();
 
             base.OnModelCreating(modelBuilder);
 
+
+
+
+
+
+            
+
         }
+
+
+
+
+
         public virtual DbSet<Bottle> Bottles { get; set; }
         public virtual DbSet<User> Users { get; set; }
     }

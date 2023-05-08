@@ -12,6 +12,11 @@ namespace DataLayer
     {
         private RecyclingmachineDbContext dbContext;
 
+        public UserContext(RecyclingmachineDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+
         public void Create(User item)
         {
             try
