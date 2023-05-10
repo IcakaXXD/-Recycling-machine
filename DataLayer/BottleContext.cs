@@ -22,7 +22,14 @@ namespace DataLayer
             try
             {
                 dbContext.Bottles.Add(item);
-                dbContext.SaveChanges();
+                IQueryable<User> users = dbContext.Users;
+                User user = users.FirstOrDefault(x => x.ID == item.UserId);
+                if (user != null)
+                {
+                    user.Money += item.Price;
+                    dbContext.Users.Update(user);
+                    dbContext.SaveChanges();
+                }
             }
             catch (Exception)
             {

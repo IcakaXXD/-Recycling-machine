@@ -37,10 +37,17 @@ namespace PresentationLayer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(textBox1.Text);
-            User user = dbmanager.Read(id);
-            textBox2.Text = user.Name;
-            textBox3.Text = user.Money.ToString();
+            try
+            {
+                int id = int.Parse(textBox1.Text);
+                User user = dbmanager.Read(id);
+                textBox2.Text = user.Name;
+                textBox3.Text = user.Money.ToString();
+            }
+            catch
+            {
+                
+            }
         }
     }
 }

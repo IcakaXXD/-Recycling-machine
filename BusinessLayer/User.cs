@@ -16,7 +16,7 @@ namespace BusinessLayer
         public string Name { get; set; }
 
         [Range(0,10000000,ErrorMessage ="Money cannot be less than zero.")]
-        public decimal Money { get; set; }
+        public double Money { get; set; }
 
         public List<Bottle> bottles { get; set; }
 

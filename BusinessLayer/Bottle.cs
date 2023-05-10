@@ -15,8 +15,9 @@ namespace BusinessLayer
        
         public char Type { get; set; }
         public char Size { get; set; }
+        public int Amount { get; set; } 
         [Range(0,100000,ErrorMessage ="Price must be greater than -1.")]
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public User User { get; set; }
         [ForeignKey("User")]
         public int UserId { get; set; }
@@ -24,10 +25,11 @@ namespace BusinessLayer
         {
 
         }
-        public Bottle(char type, char size,decimal price,int userId)
+        public Bottle(char type, char size,int amaunt,double price,int userId)
         {
             this.Type = type;
             Size = size;
+            Amount= amaunt; 
             Price = price;
             UserId = userId;
         }

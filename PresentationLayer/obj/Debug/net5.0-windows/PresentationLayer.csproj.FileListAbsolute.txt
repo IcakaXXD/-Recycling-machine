@@ -61,3 +61,4 @@ D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\bin\Debug\ne
 D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\bin\Debug\net5.0-windows\ServiceLayer.pdb
 D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\bin\Debug\net5.0-windows\DataLayer.pdb
 D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.csproj.CopyComplete
+D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.BottleForm.resources

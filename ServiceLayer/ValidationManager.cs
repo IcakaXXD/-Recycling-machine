@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,9 +19,22 @@ namespace ServiceLayer
             return false;
         }
 
-
-
-
+        public static bool IsValidTypeSize(char type,char size)
+        {
+            if (type == 'p' || type == 'g' || type == 'c')
+            {
+                if (size == 's' || size == 'b' || size == 'l')
+                {
+                    if (type == 'p' && size == 'l')
+                    {
+                        return false;
+                    }
+                    return true;
+                }
+            }
+            return false;
+        }
+     
 
 
     }

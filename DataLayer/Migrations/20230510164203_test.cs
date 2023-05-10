@@ -13,7 +13,7 @@ namespace DataLayer.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Money = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
+                    Money = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -28,7 +28,8 @@ namespace DataLayer.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Type = table.Column<string>(type: "nvarchar(1)", nullable: false),
                     Size = table.Column<string>(type: "nvarchar(1)", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Amount = table.Column<int>(type: "int", nullable: false),
+                    Price = table.Column<double>(type: "float", nullable: false),
                     UserId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
