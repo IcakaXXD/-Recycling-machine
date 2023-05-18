@@ -7,13 +7,13 @@ namespace DataLayer
 {
     public partial class RecyclingmachineDbContext : DbContext
     {
-        string Sql_ConnectionLink = "Server=DESKTOP-J5Q5EQD;Database=Recycling;Trusted_Connection=True;"; //connection link
+        string Sql_ConnectionLink = "Server=DESKTOP-J5Q5EQD;Database=RecyclingNew;Trusted_Connection=True;"; //connection link
         public RecyclingmachineDbContext()
         {
         }
 
-        public RecyclingmachineDbContext(DbContextOptions<RecyclingmachineDbContext> options)
-            : base(options)
+        public RecyclingmachineDbContext(DbContextOptions contextOptions)
+            : base(contextOptions)
         {
         }
 
