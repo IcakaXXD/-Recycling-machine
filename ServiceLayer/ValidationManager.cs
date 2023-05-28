@@ -35,6 +35,17 @@ namespace ServiceLayer
             return false;
         }
      
+        public static bool IsValidBoxTypeSize(char type, char size)
+        {
+            if (type == 'c' || type == 'w' || type == 'p')
+            {
+                if (size == 's' || size == 'm' || size == 'b' || size =='h')
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
 
 
     }

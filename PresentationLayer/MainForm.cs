@@ -34,5 +34,11 @@ namespace PresentationLayer
             BottleForm bottleForm = new BottleForm();
             bottleForm.ShowDialog();    
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BoxForm boxForm = new BoxForm();
+            boxForm.ShowDialog();
+        }
     }
 }

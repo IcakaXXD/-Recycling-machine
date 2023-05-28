@@ -13,6 +13,9 @@ namespace BusinessLayer
         [Key]
         public int Id { get; set; }
         public char Type { get; set; }
+        //c(carton)
+        //p(plastic)
+        //w(wood)
         public char Size { get; set; }
         // s(small) - do h(high)-1m na w(width)-1m na l(lenght)-1m
         // m(medium) - ot s(h,w,l) do 1,5m na 1,5m na 1,5m

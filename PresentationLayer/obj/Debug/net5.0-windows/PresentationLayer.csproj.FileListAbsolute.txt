@@ -76,3 +76,4 @@ D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-w
 D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.dll
 D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\ref\PresentationLayer.dll
 D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.pdb
+D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.BoxForm.resources

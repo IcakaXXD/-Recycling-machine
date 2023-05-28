@@ -12,6 +12,7 @@ namespace ServiceLayer
         public static RecyclingmachineDbContext dbContext;
         public static UserContext usersContext;
         public static BottleContext bottlesContext;
+        public static BoxContext boxesContext;
 
         public static RecyclingmachineDbContext GetDbContext()
         {
@@ -62,6 +63,20 @@ namespace ServiceLayer
             bottlesContext = new BottleContext(GetDbContext());
         }
 
+        public static BoxContext GetBoxesContext()
+        {
+            if (boxesContext == null)
+            {
+                SetBoxesContext();
+            }
+
+            return boxesContext;
+        }
+
+        public static void SetBoxesContext()
+        {
+            boxesContext = new BoxContext(GetDbContext());
+        }
 
     }
 }
