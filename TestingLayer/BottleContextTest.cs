@@ -74,7 +74,7 @@ namespace TestingLayer
         {
             List<Bottle> bottles = (List<Bottle>)context.ReadAll();
 
-            Assert.That(bottles.Count != 0, "ReadAll() does not return brands!");
+            Assert.That(bottles.Count != 0, "ReadAll() does not return bottles!");
         }
 
         [Test]

@@ -40,8 +40,9 @@ namespace DataLayer
 
                 if (useNavigationalProperties)
                 {
-                   //query = query.Include(p => p.Bottle);
-          
+                   query = query.Include(p => p.bottles);
+                   query = query.Include(p => p.boxes);
+
                 }
 
                 return query.FirstOrDefault(p => p.ID == key);
@@ -60,8 +61,8 @@ namespace DataLayer
 
                 if (useNavigationalProperties)
                 {
-                 //   query = query.Include(p => p.)
-                      
+                    query = query.Include(p => p.bottles);
+                    query = query.Include(p => p.boxes);
                 }
 
                 return query.ToList();

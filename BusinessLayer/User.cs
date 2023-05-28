@@ -20,15 +20,21 @@ namespace BusinessLayer
 
         public List<Bottle> bottles { get; set; }
 
+        public List<Box> boxes { get; set; }
+
         private User()
         {
             bottles = new List<Bottle>();
+            boxes= new List<Box>();
+
         }
         public User(string name)
         {
             this.Name = name;
             Money = 0;
             bottles = new List<Bottle>();
+            boxes = new List<Box>();
+
         }
 
     }

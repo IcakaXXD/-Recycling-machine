@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\programirane\\Recycling-machine\\PresentationLayer\\PresentationLayer.csproj": {}
+    "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\PresentationLayer\\PresentationLayer.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Jordan Georgiev\\.nuget\\packages\\",
+        "outputPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jordan Georgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,30 +61,45 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documents\\programirane\\Recycling-machine\\DataLayer\\DataLayer.csproj": {
+    "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\programirane\\Recycling-machine\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\DataLayer\\DataLayer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\programirane\\Recycling-machine\\DataLayer\\obj\\",
+        "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Jordan Georgiev\\.nuget\\packages\\",
+        "outputPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jordan Georgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +113,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -135,34 +150,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documents\\programirane\\Recycling-machine\\PresentationLayer\\PresentationLayer.csproj": {
+    "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\PresentationLayer\\PresentationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\programirane\\Recycling-machine\\PresentationLayer\\PresentationLayer.csproj",
+        "projectUniqueName": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\PresentationLayer\\PresentationLayer.csproj",
         "projectName": "PresentationLayer",
-        "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\PresentationLayer\\PresentationLayer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\programirane\\Recycling-machine\\PresentationLayer\\obj\\",
+        "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\PresentationLayer\\PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\Jordan Georgiev\\.nuget\\packages\\",
+        "outputPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\PresentationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jordan Georgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -172,11 +202,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "D:\\Documents\\programirane\\Recycling-machine\\ServiceLayer\\ServiceLayer.csproj": {
-                "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\ServiceLayer\\ServiceLayer.csproj"
+              "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\ServiceLayer\\ServiceLayer.csproj"
               }
             }
           }
@@ -196,10 +226,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -208,21 +257,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documents\\programirane\\Recycling-machine\\ServiceLayer\\ServiceLayer.csproj": {
+    "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\programirane\\Recycling-machine\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\ServiceLayer\\ServiceLayer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\programirane\\Recycling-machine\\ServiceLayer\\obj\\",
+        "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\Jordan Georgiev\\.nuget\\packages\\",
+        "outputPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jordan Georgiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,8 +285,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Documents\\programirane\\Recycling-machine\\DataLayer\\DataLayer.csproj": {
-                "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\DataLayer\\DataLayer.csproj"
+              "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "D:\\daskalo\\za ivan iliev\\recycling machine\\Recycling-machine-main\\DataLayer\\DataLayer.csproj"
               }
             }
           }
@@ -257,16 +306,31 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
