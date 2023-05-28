@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {}
+    "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Myumyun\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Github Repositories\\Recycling-machine\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\programirane\\Recycling-machine\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Myumyun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,8 +61,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.116\\RuntimeIdentifierGraph.json"
         }
       }
     }

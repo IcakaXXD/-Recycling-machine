@@ -15,3 +15,11 @@ D:\Projects\Github Repositories\Recycling-machine\ServiceLayer\obj\Debug\net5.0\
 D:\Projects\Github Repositories\Recycling-machine\ServiceLayer\obj\Debug\net5.0\refint\ServiceLayer.dll
 D:\Projects\Github Repositories\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb
 D:\Projects\Github Repositories\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
+D:\Documents\programirane\Recycling-machine\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb

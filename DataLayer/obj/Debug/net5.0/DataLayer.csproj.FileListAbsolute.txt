@@ -16,3 +16,11 @@ D:\Projects\Github Repositories\Recycling-machine\DataLayer\obj\Debug\net5.0\ref
 D:\Projects\Github Repositories\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.pdb
 D:\Projects\Github Repositories\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.genruntimeconfig.cache
 D:\Projects\Github Repositories\Recycling-machine\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.csproj.AssemblyReference.cache
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfoInputs.cache
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfo.cs
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.dll
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll
+D:\Documents\programirane\Recycling-machine\DataLayer\obj\Debug\net5.0\DataLayer.pdb

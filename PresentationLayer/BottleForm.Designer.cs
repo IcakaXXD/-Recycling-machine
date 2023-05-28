@@ -164,9 +164,9 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.Location = new System.Drawing.Point(334, 199);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 25);
+            this.label7.Size = new System.Drawing.Size(83, 25);
             this.label7.TabIndex = 11;
-            this.label7.Text = "Amaunt:";
+            this.label7.Text = "Amount:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // BottleForm

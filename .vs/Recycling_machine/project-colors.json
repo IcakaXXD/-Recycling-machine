@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6a875ba3-30eb-4f0d-a43f-7665c25e61c0": {
+      "ProjectGuid": "6a875ba3-30eb-4f0d-a43f-7665c25e61c0",
+      "DisplayName": "TestingLayer",
+      "ColorIndex": 0
+    },
+    "092145d9-8ceb-46e6-8ffb-2d7946d2d94c": {
+      "ProjectGuid": "092145d9-8ceb-46e6-8ffb-2d7946d2d94c",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 1
+    },
+    "dc9980aa-8af1-484c-8ae9-36983f1a9e0e": {
+      "ProjectGuid": "dc9980aa-8af1-484c-8ae9-36983f1a9e0e",
+      "DisplayName": "DataLayer",
+      "ColorIndex": 2
+    },
+    "9b360b08-7939-4c31-ba6c-fa82061d3e6a": {
+      "ProjectGuid": "9b360b08-7939-4c31-ba6c-fa82061d3e6a",
+      "DisplayName": "ServiceLayer",
+      "ColorIndex": 3
+    },
+    "0483dc0e-6e22-4a1f-bd30-4b91f70f27fd": {
+      "ProjectGuid": "0483dc0e-6e22-4a1f-bd30-4b91f70f27fd",
+      "DisplayName": "PresentationLayer",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

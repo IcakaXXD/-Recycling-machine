@@ -62,3 +62,17 @@ D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\bin\Debug\ne
 D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\bin\Debug\net5.0-windows\DataLayer.pdb
 D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.csproj.CopyComplete
 D:\Projects\Github Repositories\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.BottleForm.resources
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.csproj.AssemblyReference.cache
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.BottleForm.resources
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.CheckUserForm.resources
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.CreateUserForm.resources
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.MainForm.resources
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.Properties.Resources.resources
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.csproj.GenerateResource.cache
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.AssemblyInfoInputs.cache
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.AssemblyInfo.cs
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.dll
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\ref\PresentationLayer.dll
+D:\Documents\programirane\Recycling-machine\PresentationLayer\obj\Debug\net5.0-windows\PresentationLayer.pdb
